@@ -1,0 +1,9 @@
+{
+    "token": "Your Token",
+    "guild": "Guild ID",
+    "messages1": {
+        "vc": "Voicechat Id",
+        "msgChannel": "Channel Id",
+        "msg": "Message"
+    }
+}

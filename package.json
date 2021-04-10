@@ -1,0 +1,14 @@
+{
+  "name": "supportpingjs",
+  "version": "1.0.0",
+  "description": "A bot wich pings someone when they join a vc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Evito",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
