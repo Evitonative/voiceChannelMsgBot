@@ -12,8 +12,9 @@ client.once('ready', () => {
 client.on('voiceStateUpdate', (oldState, newState) =>{
     if (newState.guild != config.guild) return;
     if (newState.channelID === config.messages1.vc) {
-        client.channels.cache.get(config.messages1.msgChannel).send(config.messages1.msg);
-        console.log('msg > ', config.messages1.msgChannel)
+        let msg = '<@&'+config.messages1.roleToMention+'> <@' + newState.member.id + '> ' + config.messages1.msg
+        client.channels.cache.get(config.messages1.msgChannel).send(msg);
+        console.log('msg > ', msg)
     }
 })
 
