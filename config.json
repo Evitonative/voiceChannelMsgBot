@@ -1,10 +1,17 @@
 {
-    "token": "Your Token",
-    "guild": "Guild ID",
-    "messages1": {
-        "vc": "Voicechat Id",
-        "msgChannel": "Channel Id",
-        "roleToMention": "Role Id",
-        "msg": "Message"
+    "token": "Your Token https://discord.com/developers",
+    "message1": {
+        "vc": "ID of the voicechannel to look for",        
+        "guild": "The Id of the Guild the voicechannel is in.",
+        "msgChannel": "The Channel id of the Server the Voicechannel is in",
+        "roleToMention": "The Id of the role which should be menthioned",
+        "msg": "The message sent. Note all messages start with @role @user"
+    },
+    "message2": {
+        "vc": "ID of the voicechannel to look for",        
+        "guild": "The Id of the Guild the voicechannel is in.",
+        "msgChannel": "The Channel id of the Server the Voicechannel is in",
+        "roleToMention": "The Id of the role which should be menthioned",
+        "msg": "The message sent. Note all messages start with @role @user"
     }
 }
