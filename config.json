@@ -4,6 +4,7 @@
     "messages1": {
         "vc": "Voicechat Id",
         "msgChannel": "Channel Id",
+        "roleToMention": "Role Id",
         "msg": "Message"
     }
 }
